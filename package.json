@@ -27,7 +27,8 @@
     "react-native-screens": "~3.18.0",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "^0.18.10",
-    "tailwind-rn": "^4.2.0"
+    "tailwind-rn": "^4.2.0",
+    "react-native-maps": "1.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

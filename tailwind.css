@@ -14,24 +14,30 @@
   position: relative
 }
 
-.top-5 {
-  top: 1.25rem
+.top-10 {
+  top: 2.5rem
 }
 
 .right-5 {
   right: 1.25rem
 }
 
-.top-10 {
-  top: 2.5rem
-}
-
 .z-10 {
   z-index: 10
 }
 
-.m-20 {
-  margin: 5rem
+.m-0 {
+  margin: 0px
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto
 }
 
 .mb-5 {
@@ -42,8 +48,12 @@
   margin-left: auto
 }
 
-.mt-20 {
-  margin-top: 5rem
+.mt-5 {
+  margin-top: 1.25rem
+}
+
+.-mt-3 {
+  margin-top: -0.75rem
 }
 
 .block {
@@ -70,20 +80,24 @@
   width: 100%
 }
 
-.w-10 {
-  width: 2.5rem
-}
-
-.flex-1 {
-  flex: 1 1 0%
-}
-
 .flex-row {
   flex-direction: row
 }
 
+.flex-col {
+  flex-direction: column
+}
+
+.items-start {
+  align-items: flex-start
+}
+
 .items-center {
   align-items: center
+}
+
+.justify-start {
+  justify-content: flex-start
 }
 
 .justify-end {
@@ -102,33 +116,16 @@
   border-radius: 0.5rem
 }
 
-.rounded-xl {
-  border-radius: 0.75rem
+.rounded-none {
+  border-radius: 0px
 }
 
 .border {
   border-width: 1px
 }
 
-.border-0 {
-  border-width: 0px
-}
-
 .border-b {
   border-bottom-width: 1px
-}
-
-.border-t {
-  border-top-width: 1px
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity))
-}
-
-.border-t-\[\"\#59C1CC\"\] {
-  border-top-color: "#59C1CC"
 }
 
 .bg-white {
@@ -140,9 +137,9 @@
   padding: 1.25rem
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
 }
 
 .px-10 {
@@ -150,21 +147,18 @@
   padding-right: 2.5rem
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem
 }
 
 .pb-5 {
   padding-bottom: 1.25rem
-}
-
-.pt-5 {
-  padding-top: 1.25rem
-}
-
-.pt-4 {
-  padding-top: 1rem
 }
 
 .pt-3 {
@@ -183,6 +177,21 @@
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
 }
 
 .text-xl {
@@ -204,4 +213,19 @@
 
 .italic {
   font-style: italic
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity))
 }
