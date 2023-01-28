@@ -37,7 +37,7 @@ const OrdersScreen = () => {
                 containerStyle={tw('w-full h-60')}
             />
 
-            <View>
+            <View style={tw('pb-5')}>
                 <View
                     style={tw('py-2 px-5')}
                 >
